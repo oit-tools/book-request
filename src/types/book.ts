@@ -1,4 +1,4 @@
-export type Book = {
+export interface Book {
   title: string;
   author: string;
   publisher: string;
@@ -7,4 +7,4 @@ export type Book = {
   summary: any;
   onix: any;
   ProductSupply: any;
-};
+}

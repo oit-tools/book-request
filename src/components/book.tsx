@@ -31,7 +31,7 @@ const renderBook: any = (book: Book | null) => {
 
     console.log(title, authors, publisher, price, isbn);
   } else {
-    console.log("No book found");
+    console.log("本が見つかりませんでした");
   }
 };
 
